@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+	<title>your own Admin</title>
+	<link rel="stylesheet" href="css/Adminstyles.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Rosario:wght@300&display=swap" rel="stylesheet">
+	
+</head>
+
+<body>
+
+<!--	navbar starts here-->
+    <nav class="navbar navbar-expand-lg navbar-inverse">
+  <a class="navbar-brand" href="#">AdminDashboard</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><i class="fas fa-tachometer-alt"></i>  Dashboard <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-cog"></i>  Settings</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#"><i class="fas fa-user"></i>  Profile</a>
+      </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#"><i class="far fa-question-circle"></i>  Help</a>
+      </li>
+      
+      
+     
+    </ul>
+   
+      <ul class=" nav navbar-nav navbar-right">
+          <li class="nav-item">
+              <a href="#" class="nav-link"><i class="fas fa-user-plus"></i>  AddUser</a>
+          </li><li class="nav-item">
+              <a href="#" class="nav-link"> <i class="far fa-copy"></i>  Categories</a>
+          </li>
+      </ul>
+       
+   
+  </div>
+</nav>
+<!--navbar ends here-->
+
+<!--leftbar starts here-->
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+            <ul class="nav flex-column"> 
+                <li class="active"><a href="#">Reports</a></li>
+                <li><a href="#">stats</a></li>    
+                <li><a href="#">graphs</a></li>    
+                <li><a href="#">users</a></li>
+            </ul>
+            
+                 <ul class="nav flex-column"> 
+                <li class="active"><a href="#">Reports</a></li>
+                <li><a href="#">Revenue</a></li>    
+                <li><a href="#">countries</a></li>    
+                <li><a href="#">spammers</a></li>
+            </ul>
+        </div>
+        
+        <div class="col-sm-9  col-md-10 main">
+            
+            <h1 class="page-header"> <i class="fas fa-tachometer-alt"></i> 
+Dashboard</h1>
+       
+       <div class="row placeholders">
+           <div class="col-xs-6 col-sm-3 placeholder">
+               <img src="images/graph.png"width="200" height="200" class="img-responsive" alt="">
+               <h4>Label</h4>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           </div>
+           <div class="col-xs-6 col-sm-3 placeholder">
+                <img src="images/graph.png"width="200" height="200" class="img-responsive" alt="">
+                <h4>Label</h4>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           </div>
+           <div class="col-xs-6 col-sm-3 placeholder">
+                <img src="images/graph.png" width="200" height="200"  class="img-responsive"alt="">
+                <h4>Label</h4>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           </div>
+           <div class="col-xs-6 col-sm-3 placeholder">
+                <img src="images/graph.png"width="200" height="200" class="img-responsive" alt="">
+                <h4>Label</h4>
+               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+           </div>
+           
+       </div>
+       
+       <h2 class="sub-header">Detailed results</h2>
+       <hr class="divider">
+       
+       <div class="table-responsive">
+           <table class="table table-striped">
+               <thead>
+                   <tr>
+                       <th>ID#</th>
+                       <th>Detail 1#</th>
+                       <th>Detail 2#</th>
+                       <th>Detail 3#</th>
+                       <th>Detail 4#</th>
+                   </tr>
+               </thead>
+               <tbody>
+                   <tr>
+                       <td>234</td>
+                       <td>John</td>
+                       <td>pentesting</td>
+                       <td>china</td>
+                       <td>90$</td>
+                   </tr>
+                    <tr>
+                       <td>235</td>
+                       <td>Riyaz</td>
+                       <td>hacking</td>
+                       <td>India</td>
+                       <td>70$</td>
+                   </tr>
+                    <tr>
+                       <td>234</td>
+                       <td>John</td>
+                       <td>pentesting</td>
+                       <td>china</td>
+                       <td>90$</td>
+                   </tr>
+                     <tr>
+                       <td>235</td>
+                       <td>Riyaz</td>
+                       <td>hacking</td>
+                       <td>India</td>
+                       <td>70$</td>
+                   </tr>
+                     <tr>
+                       <td>235</td>
+                       <td>Riyaz</td>
+                       <td>hacking</td>
+                       <td>India</td>
+                       <td>70$</td>
+                   </tr>
+                     <tr>
+                       <td>235</td>
+                       <td>Riyaz</td>
+                       <td>hacking</td>
+                       <td>India</td>
+                       <td>70$</td>
+                   </tr>
+                     <tr>
+                       <td>235</td>
+                       <td>Riyaz</td>
+                       <td>hacking</td>
+                       <td>India</td>
+                       <td>70$</td>
+                   </tr>
+                     <tr>
+                       <td>235</td>
+                       <td>Riyaz</td>
+                       <td>hacking</td>
+                       <td>India</td>
+                       <td>70$</td>
+                   </tr>
+                    <tr>
+                       <td>234</td>
+                       <td>John</td>
+                       <td>pentesting</td>
+                       <td>china</td>
+                       <td>90$</td>
+                   </tr> <tr>
+                       <td>234</td>
+                       <td>John</td>
+                       <td>pentesting</td>
+                       <td>china</td>
+                       <td>90$</td>
+                   </tr> <tr>
+                       <td>234</td>
+                       <td>John</td>
+                       <td>pentesting</td>
+                       <td>china</td>
+                       <td>90$</td>
+                   </tr> <tr>
+                       <td>234</td>
+                       <td>John</td>
+                       <td>pentesting</td>
+                       <td>china</td>
+                       <td>90$</td>
+                   </tr>
+               </tbody>
+           </table>
+       </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-12 footer">
+       
+       <h1>The results are approx</h1>
+        
+    </div>
+</div>
+
+
+
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+	<script>
+	</script>
+
+</body>
+
+</html>
