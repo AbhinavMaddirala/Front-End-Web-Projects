@@ -1,0 +1,18 @@
+#the-basics{
+    font-size:3em;
+}
+
+#the-basics input{
+    margin-left: 50px;
+}
+.tt-suggestion,.tt-selectable{
+    margin-left:50px;
+}
+/*
+.tt-dataset.tt-dataset-states{
+    margin-left:50px;
+    box-sizing: border-box;
+    border:1px solid red;
+    background-color: aqua;
+}
+*/
