@@ -1,0 +1,399 @@
+body{
+/*    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: 'Roboto', sans-serif;
+    height:2000px;
+}
+
+
+/*banner css*/
+.banner{
+    height:750px;
+    width:100%;
+    background-image: url("../images/bgbanneralter.jpg");
+    opacity:0.8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.description p{
+    text-align: center;
+    color:#ffff;
+     font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      padding-left:30px;
+    padding-right:30px;
+    text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 25px;
+    opacity:5;
+
+}
+.description h1{
+     text-align: center;
+   
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color:#fff;
+    padding-top:350px;
+    padding-left:30px;
+    padding-right:30px;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 30px;
+  line-height: 22px;
+  margin-bottom: 25px;
+    opacity:5;
+   
+   
+    
+}
+
+/*navbar css*/
+
+.navbar{
+    text-decoration: none;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    overflow: hidden;
+}
+li{
+    float: left;
+}
+
+/*branding style*/
+.brand{
+    font-size:3em;
+    
+}
+.brand a{
+    color:#E8290B;
+    font-weight: 500;
+/*    font-family:font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    
+}
+.brand a:hover{
+    color:#FAC42F;
+    text-decoration: none;
+}
+/*branding style ends*/
+
+/*navbar items*/
+.navlink{
+    font-size:1.75em;
+    padding-left:0
+    
+}
+.navlink a{
+    color:#fff;
+    display: inline;
+    padding:15px 20px;
+    text-decoration: none;
+}
+
+.navlink a:hover{
+    text-decoration: none;
+    color:#E8290B;
+    font-weight: 600;
+}
+.navlink a:active{
+    color:#f63;
+}
+.iconsize{
+    font-size:17px;
+}
+/*navbar items*/
+
+/*about styles*/
+
+.about{
+    margin-top:5px;
+    padding:0;
+}
+.abouttext{
+    text-align: center;
+    color:#fff;
+    margin-top:70px;
+}
+.abouttext h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family:  "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.abouttext p{
+    margin-top:4px;
+    font-size:25px;
+    font-style: italic;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400px;
+}
+
+
+}
+.container{
+    margin-top:50px;
+}
+.firstrow{
+    margin-top:100px;
+    margin-bottom: 100px;
+}
+.firstrow  .col1 h2,p{
+    color:#333;
+    text-align: center;
+    padding-top:25px;
+    padding-left:30px;
+    
+}
+.firstrow .col1 h2{
+    color:#f63;
+    font-size:25px;
+    font-weight:400
+    font-family:  "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-bottom: 3px;
+}
+.firstrow .col1 p{
+    padding-top:0;
+    font-size:20px;
+    font-style: italic;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 300px;
+}
+.firstrow .col2{
+    
+}
+.secondrow .col2 h2,p{
+     color:#fff;
+    text-align: center;
+    padding-top:25px;
+    padding-left:30px;
+}
+.secondrow .col2 h2{
+     color:#f63;
+    font-size:25px;
+    font-weight:400
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding-bottom: 3px;
+}
+.secondrow .col2 p{
+     padding-top:0;
+    font-size:20px;
+    font-style: italic;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:300;
+    
+}
+
+.firstrow .col2 img{
+    margin-left:10px;
+}
+.secondrow{
+    margin-top:100px;
+    margin-bottom: 100px;
+    
+}
+
+/*aboutstyles ends here*/
+
+/*services styles*/
+
+.services{
+    margin-top:130px;
+    height:700px;
+    margin-bottom: 50px;
+}
+.serviceheading h1{
+    color:#333;
+    text-align: center;
+    font-size: 45px;
+    font-weight:700;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    
+    
+}
+.serviceheading h3{
+    font-size:17px;
+    font-style: italic;
+    text-align: center;
+    padding-left:10px;
+    padding-bottom: 20px;
+    
+}
+.servicecenter{
+    margin-top:95px;
+    text-align:center;
+    
+}
+.servicecenter h2{
+    color:#f63;
+}
+.servicecenter h4{
+    color:#333;
+    font-size:30px;
+    font-weight:400
+    font-family:  "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    padding-top:40px;
+    padding-bottom: 10px;
+}
+.servicecenter p{
+    text-align:center;
+    font-size:17px;
+    font-style: italic;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:300;
+}
+/*service style ends here*/
+
+/*team style starts here*/
+.bg-light-grey{
+    margin-top:0;
+    margin-bottom:0;
+    background-color: lightgray;
+}
+.team{
+    padding-top:50px;
+    margin-top:150px;
+    margin-bottom:0;;
+}
+.teamheading h1{
+    text-align: center;
+    color:#333;
+     font-size: 45px;
+    font-weight:700;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.teamheading i{
+    padding-top:5px;
+    padding-bottom: 0;
+}
+.team .firstrow{
+    margin-top:100px;
+}
+.team .secondrow{
+    margin-top:50px;
+    margin-bottom:100px;
+}
+.firstrow h2{
+    color:#333;
+    text-align:center;
+    font-size:30px;
+    font-weight:400
+    font-family:  "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    padding-top:5px;
+    padding-right:50px;
+    
+}
+.firstrow p{
+    text-align: center;
+    padding-top:0;
+    padding-right:50px;
+    font-size:17px;
+    font-style: italic;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:300;
+}
+.secondrow h2{
+    color:#333;
+    text-align:center;
+    font-size:30px;
+    font-weight:400
+    font-family:  "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    padding-top:5px;
+    padding-right:50px;
+}
+.secondrow p{
+    text-align: center;
+    padding-top:0;
+    padding-right:50px;
+    font-size:17px;
+    font-style: italic;
+    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:300;
+    
+}
+
+/*team style ends here*/
+
+.contact{
+    background-color: #222222;
+    height:700px;
+    width:100%;
+    background-image: url("../images/map-image.png");
+    margin-top:5px;
+}
+.contact .container{
+    padding-top:100px;
+    
+}
+.contact .container .contheading h1{
+    text-align:center;
+    color:#f63;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      padding-left:30px;
+    padding-right:30px;
+    text-transform: uppercase;
+  font-weight: 700;
+  font-size: 50px;
+}
+.contact .container .continfo{
+    color:#fff;
+    margin-top:130px;
+    text-align:center;
+    
+}
+.contact .container .continfo h1{
+    font-size:35px;
+    font-weight: 500
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;  
+}
+.contact .container .continfo p{
+    font-size:22px;
+    font-family: 'Oswald', sans-serif;
+}
+.contact .container .continfo i{
+    color:#f63;
+}
+.container .custom{
+    border: none;
+    background-color: #f63;
+    font-size:17px;
+    margin-top:25px;
+    margin-left:385px;
+    text-align: center;
+    padding-top:25px;
+    padding-bottom: 25px;
+    padding-left:150px;
+    padding-right:150px;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+/*contact styles end here*/
+
+/*footer styles*/
+.footer{
+    height:100px;
+}
+.footer .footerinfo{
+    margin-top:25px;
+}
+.footer .footerinfo p{
+    padding-top:0;
+    font-size:14px;
+}
+.footer .footerinfo a{
+    font-size:12px;
+    color:red;
+    padding-left:15px;
+    padding-right:15px;
+    padding-bottom:0;
+    padding-top:75px;
+}
+
+
+
+
+
+
